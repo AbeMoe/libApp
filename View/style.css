@@ -1,0 +1,45 @@
+#mapid 
+{ 
+  height: 100vh; 
+  width: auto; 
+  cursor:crosshair;
+
+}
+.leaflet-interactive 
+{
+    cursor: crosshair;
+}
+#controls 
+{
+    float: right;
+    width: 21vw;
+    height: auto;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#rangeList 
+{
+    overflow: scroll;
+    height: 45vh;
+}
+
+input[type="text"] {
+    width: 90%;
+}
+#upper {
+    display: inline-block;
+    width: auto;
+}
+
+#lower
+{
+	display:inline-block;
+    width: auto;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
